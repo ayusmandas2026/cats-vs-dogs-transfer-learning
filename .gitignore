@@ -1,0 +1,23 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Intermediate Model Checkpoints (Keep models/final/ tracked!)
+models/checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
